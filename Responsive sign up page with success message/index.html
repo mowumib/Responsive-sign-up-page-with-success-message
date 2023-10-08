@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+
+  </head>
+<body>
+
+ 
+  <div class="container" id="container">
+    <img id="img" alt="sign-up mobile" src = "assets/images/illustration-sign-up-desktop.svg">
+  
+    <div>
+      <div class="content">
+        <h1 class="content-title">Stay updated!</h1>
+        <p class="content-text">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="content-list">
+          <li class="content-list-item"><img src="assets/images/icon-list.svg" alt="icon list"><p>Product discovery and building what matters</p></li>
+          <li class="content-list-item"><img src="assets/images/icon-list.svg" alt="icon list"><p>Measuring to ensure updates are a success</p></li>
+          <li class="content-list-item"><img src="assets/images/icon-list.svg" alt="icon list"><p>And much more!</p></li>
+        </ul>
+      </div>
+      <form class="form" id="form" action="#">
+          <label for="email" class="form-label">Email Address
+            <input name="email" class="form-input" type="text" placeholder="email@company.com" id="email" required>
+          </label>
+          <button class="form-button" id="form-button">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+  
+  </div>
+  
+  <div id="SC-modal" class="SC-modal">
+    <div class="SC-modal-content">
+      <img class="SC-modal-img" src="assets/images/icon-success.svg" alt="icon">
+      <h2 class="SC-modal-title">Thanks for subscribing!</h2>
+      <p class="SC-modal-text">A confirmation email has been sent to <span></span> 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <button id="SC-modal-btn" class="SC-modal-button">Dismiss Message</button>
+    </div>
+  </div>
+  
+
+
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/mowumib" target="_blank">Boluwatife Oduyemi</a>.
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
